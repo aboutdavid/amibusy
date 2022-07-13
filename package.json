@@ -1,0 +1,28 @@
+{
+  "name": "amibusy",
+  "version": "1.0.0",
+  "description": "automatically check your calendars and tells anyone who looks at your discord profile if you're busy or not.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["busy","free","discord","calendar","rpc"],
+  "author": "aboutdavid",
+  "license": "MIT",
+  "dependencies": {
+    "@jacobmischka/ical-merger": "^6.0.2",
+    "discord-rich-presence": "^0.0.8",
+    "ical": "^0.8.0",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboutdavid/amibusy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aboutdavid/amibusy/issues"
+  },
+  "homepage": "https://github.com/aboutdavid/amibusy#readme"
+}
