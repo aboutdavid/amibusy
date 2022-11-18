@@ -4,5 +4,5 @@ module.exports = {
     "https://example.com/calendar.ical", // Put a list of iCal files you want to monitor
   ],
   timezone: "America/New_York", // Set this to your timezone (TZ database name, https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
-  refreshInterval: 600000, // How often you want to refresh the Discord RPC in milliseconds, defauly 600000 (10 minutes)
+  refreshInterval: 600000, // How often you want to refresh the Discord RPC in milliseconds, default 600000 (10 minutes)
 };
